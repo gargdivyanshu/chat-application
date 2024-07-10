@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import {FaReact} from 'react-icons/fa6'
+import { useState } from 'react'
 import '../style.css'
 import _ from 'lodash'
 
@@ -14,7 +13,6 @@ const UserLogin = ({setUser}) => {
   return (
     <div className='login_container'>
         <div className='login_title'>
-            <FaReact className='login_icon'/>
             <h1>Chat App</h1>
         </div>
         <div className='login_form'>

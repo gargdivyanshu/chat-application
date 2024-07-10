@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import { FaYoutube } from "react-icons/fa6";
+import { useEffect, useState } from "react";
 import ChatLists from "./ChatLists";
 import InputText from "./InputText";
 import UserLogin from "./UserLogin";
@@ -46,9 +45,6 @@ const ChatContainer = () => {
         <div className="home">
           <div className="chats_header">
             <h4>Username: {user}</h4>
-            <p>
-              <FaYoutube className="chats_icon" /> Code With Yousaf
-            </p>
             <p className="chats_logout" onClick={Logout}>
               <strong>Logout</strong>
             </p>
